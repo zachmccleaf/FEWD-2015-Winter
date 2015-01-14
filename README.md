@@ -1,1 +1,1 @@
-# FEWD-2015-Winter
+# FEWD 2015 - Winter
