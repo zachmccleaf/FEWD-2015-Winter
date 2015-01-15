@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Selectors</title>
+	</head>
+	<body>
+
+		<style>
+			body {
+				color: black;
+			}
+
+			p {
+				color: royalblue;
+				font-size: 16px;
+			}
+
+			.text {
+				color: orange;
+				font-family: sans-serif;
+			}
+
+			#id_1,
+			#id_2 {
+				color: limegreen;
+			}
+
+			#id_2.text {
+				color: maroon;
+			}
+
+			.text .text {
+				color: gray;
+			}
+
+			#id_3 .text {
+				color: red;
+			}
+		</style>
+
+		A line of text.
+
+		<p>A line of text in a paragraph.</p>
+
+		<p class="text">A line of text in a paragraph.</p>
+
+		<p id="id_1">A line of text in a paragraph.</p>
+
+		<p class="text" id="id_2">A line of text in a paragraph.</p>
+
+		<div class="text">
+			<p class="text">A line of text in a paragraph.</p>
+		</div>
+
+		<div id="id_3" class="text">
+			<p class="text">A line of text in a paragraph.</p>
+		</div>
+
+
+		<hr>
+
+
+		<style>
+			a {
+				color: orange;
+			}
+
+			.button {
+				background: gray;
+				color: #fff;
+				display: inline-block;
+				padding: 10px 20px;
+				text-decoration: none;
+			}
+
+			.button.delete {
+				background: red;
+			}
+
+			.button.save {
+				background: green;
+			}
+
+			.button.large {
+				font-size: 18px;
+				padding: 20px 40px;
+			}
+		</style>
+
+		<p>
+			<a href="#">Link</a>
+		</p>
+
+		<p>
+			<a href="#" class="button">Cancel</a>
+		</p>
+
+		<p>
+			<a href="#" class="button delete">Delete</a>
+		</p>
+
+		<p>
+			<a href="#" class="button save large">Save</a>
+		</p>
+
+
+		<hr>
+
+
+		<style>
+			.box {
+				background: lightgray;
+				border: 1px solid gray;
+			}
+
+			.box.sized {
+				height: 100px;
+				width: 200px;
+			}
+
+			.box.margined {
+				margin: 20px;
+			}
+
+			.box.padded {
+				padding: 20px;
+			}
+
+			.box.colored {
+				background-color: lightblue;
+				border-color: royalblue;
+			}
+		</style>
+
+		<div class="box">
+			A line of text.
+		</div>
+
+		<div class="box colored">
+			A line of text.
+		</div>
+
+		<div class="box sized">
+			A line of text.
+		</div>
+
+		<div class="box margined">
+			A line of text.
+		</div>
+
+		<div class="box padded">
+			A line of text.
+		</div>
+
+		<div class="box sized margined padded colored">
+			A line of text.
+		</div>
+
+	</body>
+</html>
