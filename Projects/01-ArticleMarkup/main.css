@@ -1,0 +1,155 @@
+
+/*header*/
+.container {
+	width: 775px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+	color: #222;
+	text-align: center;
+}
+h5 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #999;
+	padding-left: 37px;
+	margin-bottom: 0;
+	margin-top: 90px;
+	padding-top: 600px;
+}
+h3 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 900;
+	font-size: 28px
+	color: #222;
+}
+.wiki {
+	font-family: Georgia;
+	font-size: 20px;
+	color: #999;
+	text-align: center;
+	margin-bottom: 90px;
+}
+figure {
+	width: 900px;
+	display: block;
+	margin: 0 auto;
+}
+img {
+	border: 1px solid #ccc;
+}
+.headerimg {
+	width: 900px;
+}
+p {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 25px;
+}
+ol {
+	color: #999;
+}
+nav {
+	padding-bottom: 35px;
+}
+.topborder {
+	border-top: 1px solid #ccc;
+	padding: 35px;
+}
+.bottomborder {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 40px;
+}
+.nostyle {
+	font-family: Georgia; 
+	font-size: 16px;
+	color: #666;
+	list-style: none;
+}
+ol .nostyle a {
+	color: #666;
+}
+.liststyle {
+	font-family: Georgia;
+	font-size: 20px;
+}
+.liststyle a {
+	color: #222;
+}
+.subtitle {
+	padding-bottom: 35px;
+}
+header {
+	padding-bottom: 40px;
+}
+
+/*content*/
+h2 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 900;
+	font-size: 36px;
+	color: #222;
+}
+.content {
+	font-family: Georgia;
+	font-size: 16px;
+	color: #222;
+	line-height: 25px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+blockquote {
+	background-color: #f6f6f6;
+	border-left: 10px solid #e3e3e3;
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 20px;
+	color: #222;
+	padding: 45px;
+	line-height: 40px;
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+}
+.thumb {
+	border: 1px solid #ccc;
+}
+.wrapper {
+	float: right;
+	padding: 35px;
+	width: 400px;
+}
+.push {
+	margin-top: 70px;
+}
+ul {
+	font-family: Georgia;
+	font-size: 16px;
+	color: #222;
+}
+li {
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
