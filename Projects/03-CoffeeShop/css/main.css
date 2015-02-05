@@ -1,0 +1,55 @@
+.cf:after {
+   content: '';
+   clear: both;
+}
+header {
+	background: #222;
+   background: url(../images/header.jpg) no-repeat;
+	height: 560px;
+	width: 100%;
+}
+.headerlogo {
+   background: url(../images/logo_large.png);
+   width: 100px;
+   height: 100px;
+   margin: 0 auto;
+   text-indent: 100%;
+   overflow: hidden;
+   white-space: nowrap;
+}
+.footerlogo {
+   background: url(../images/logo_small.png);
+   width: 50px;
+   height: 50px;
+   text-indent: 100%;
+   overflow: hidden;
+   white-space: nowrap;
+}
+ul {
+	width: 300px;
+}
+li{
+   list-style:none;    
+   overflow:hidden;
+   padding:5px 0;
+   position:relative;
+}
+li label{
+   float:left;
+   background:#fff;
+   padding-right:10px;
+}
+li span{
+   float:right;
+   background:#fff;
+   padding-left:10px;
+}
+.menuleft {
+   float: left;
+}
+.menuright {
+   float: right;
+}
+h2 {
+   clear: both;
+}
