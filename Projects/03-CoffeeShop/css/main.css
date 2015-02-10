@@ -1,6 +1,18 @@
+/*  
+FONTS:
+font-family: 'Lato', sans-serif;
+font-family: 'Sanchez', serif;  
+*/
+
 .cf:after {
    content: '';
    clear: both;
+}
+div {
+   overflow: hidden;
+}
+body {
+   margin: 0;
 }
 header {
 	background: #222;
@@ -9,13 +21,14 @@ header {
 	width: 100%;
 }
 .headerlogo {
-   background: url(../images/logo_large.png);
+   background: url(../images/logo_large.png) bottom no-repeat;
    width: 100px;
    height: 100px;
    margin: 0 auto;
    text-indent: 100%;
    overflow: hidden;
    white-space: nowrap;
+   padding-top: 150px;
 }
 .footerlogo {
    background: url(../images/logo_small.png);
@@ -24,9 +37,35 @@ header {
    text-indent: 100%;
    overflow: hidden;
    white-space: nowrap;
+   display: block;
+   margin: 0 auto;
+   float: left;
+   margin-left: 290px;
+   margin-top: 75px;
+}
+h1 {
+   font-family: 'Sanchez', serif;
+   font-weight: lighter;
+   color: #fff;
+   font-size: 60px;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.tagline {
+   font-family: 'Lato', sans-serif;
+   font-size: 22px;
+   color: #ccc;
+   text-align: center;
+   margin: 0;
+   padding: 0;
 }
 ul {
 	width: 300px;
+   padding: 0;
+}
+.padd {
+   margin-bottom: 45px;
 }
 li{
    list-style:none;    
@@ -37,19 +76,125 @@ li{
 li label{
    float:left;
    background:#fff;
-   padding-right:10px;
+   background: #AC8420;
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   color: #fff;
+   padding: 7px 0;
 }
 li span{
    float:right;
    background:#fff;
-   padding-left:10px;
+   background: #AC8420;
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   color: #DECC9C;
+   padding: 5px 0;
+}
+.bottomborder {
+   border-bottom: 2px solid #9B761C;
+}
+.menu {
+   background: #AC8420;
+   width: 1150px;
+   height: 735px;
 }
 .menuleft {
    float: left;
+   margin-left: 264px;
 }
 .menuright {
    float: right;
+   margin-right: 264px;
 }
 h2 {
    clear: both;
+   text-align: center;
+   font-family: 'Sanchez', serif;
+   font-size: 32px;
+   color: #222;
+   margin-top: 90px;
+}
+h3 {
+   font-family: 'Sanchez', serif;
+   font-size: 26px;
+   color: #222;
+}
+.details, .address {
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   color: #666;
+}
+.address {
+   line-height: 1.5em;
+}
+.details {
+   margin: 0 auto;
+   display: block;
+}
+.container {
+   width: 620px;
+   display: block;
+   margin: 0 auto;
+   padding: 0;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+.shop {
+   float: right;
+   padding: 0;
+   margin: 0;
+}
+.notes {
+   float: left;
+   margin-top: -20px;
+}
+.directionsbutton {
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   color: #AC8420; 
+   border: 2px solid #AC8420;
+   width: 160px;
+   height: 50px;
+   text-align: center;
+   margin-top: 30px;
+}
+.directionsbutton p {
+   padding: 0;
+}
+footer {
+   height: 200px;
+   background: #222;
+   clear: both;
+   width: 1150px;
+}
+footer p, a{
+   font-family: 'Lato', sans-serif;
+   font-size: 12px;
+   color: #fff;
+   text-transform: uppercase;
+}
+footer a {
+   text-decoration: none;
+}
+aside {
+   float: right;
+   margin-right: 100px;
+   margin-top: 95px;
+}
+footer p {
+   float: left;
+   margin: 0;
+   margin-left: 100px;
+   margin-top: 95px;
+}
+.middot:before {
+   content: '\b7\a0';
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.middot:after {
+   content: '\b7\a0';
+   padding-left: 5px;
+   padding-right: 5px;
 }
