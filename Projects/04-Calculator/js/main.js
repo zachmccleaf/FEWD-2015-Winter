@@ -46,7 +46,7 @@ function updateDisplay(value) {
 //Clear the current input
 
 function onClear(e) {
-	updateDisplay(0);
+	updateDisplay(0);	
 }
 
 
