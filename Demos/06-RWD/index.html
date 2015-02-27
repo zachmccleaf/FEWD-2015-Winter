@@ -15,10 +15,22 @@
 				text-transform: uppercase;
 			}
 		</style>
+
+		<link rel="stylesheet" type="text/css" href="components/normalize-css/css">
+		<link rel="stylesheet" type="text/css" href="components/formstone/dist/css/grid.css">
+
 	</head>
-	<body>
+	<body class="fs-grid">
 
-		<div class="fs-cell"></div>
+		<div class="fs-row">
+			<div class="fs-cell fs-lg-third">1</div>
+			<div class="fs-cell fs-lg-third">2</div>
+			<div class="fs-cell fs-lg-third">3</div>
+		</div>
 
+		<div class="fs-row">
+			<div class="fs-cell-right fs-lg-4">Sidebar</div>
+			<div class="fs-cell fs-lg-8">Content</div>
+		</div>
 	</body>
 </html>
