@@ -1,0 +1,74 @@
+header {
+	height: 140px;
+	width: 100%;
+}
+.logo {
+	line-height: 60px;
+	margin-top: 40px;
+}
+header .fs-cell {
+	margin-top: 40px;
+}
+.logo:before {
+	content: "";
+	background: url(../images/icon_sprite.png) 0 0 no-repeat;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+.landing {
+	background: url(../images/intro_bg.jpg);
+	height: 455px;
+	max-width: 100%;
+	position: relative;
+}
+.calltoaction {
+	margin-top: 100px;
+}
+.features {
+	text-align: center;
+	margin: 100px 0;
+}
+.phone {
+	position: absolute;
+	left: 700px;
+	top: -100px;
+}
+.tag-img {
+	background: url(../images/icon_sprite.png) 0 -120px no-repeat;
+	height: 70px;
+	width: 65px;
+	margin: 0 auto;
+}
+.cloud-img {
+	background: url(../images/icon_sprite.png) -80px -120px no-repeat;
+	height: 70px;
+	width: 75px;
+	margin: 0 auto;
+}
+.map-img {
+	background: url(../images/icon_sprite.png) -160px -120px no-repeat;
+	height: 70px;
+	width: 52px;
+	margin: 0 auto;
+}
+.slideshow {
+	height: 500px;
+	background: lightgray;
+}
+.discription {
+	margin: 170px 0;
+}
+.block {
+	background: gray;
+	width: 140px;
+	height: 140px;
+	border: 1px solid red;
+	margin: 10px 0;
+}
+.photos {
+	margin: 80px 0;
+}
+
