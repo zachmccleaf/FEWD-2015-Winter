@@ -57,6 +57,7 @@ header .fs-cell {
 .slideshow {
 	height: 500px;
 	background: lightgray;
+	margin-top: 90px;
 }
 .discription {
 	margin: 170px 0;
@@ -65,10 +66,10 @@ header .fs-cell {
 	background: gray;
 	width: 140px;
 	height: 140px;
-	border: 1px solid red;
 	margin: 10px 0;
 }
-.photos {
-	margin: 80px 0;
+.additional {
+	text-align: center;
 }
+
 
