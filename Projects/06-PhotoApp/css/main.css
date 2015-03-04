@@ -55,21 +55,103 @@ header .fs-cell {
 	margin: 0 auto;
 }
 .slideshow {
-	height: 500px;
 	background: lightgray;
 	margin-top: 90px;
+	padding: 100px 0 90px 0;
 }
 .discription {
-	margin: 170px 0;
+	margin: 70px 0 0 0;
 }
-.block {
-	background: gray;
-	width: 140px;
-	height: 140px;
-	margin: 10px 0;
+.photo {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width: 740px) and (max-width: 979px) {
+	.photomarg {
+		margin-top: 70px;
+	}
+	.slideshow {
+		padding-top: 25px;
+	}
 }
 .additional {
 	text-align: center;
+	height: 370px;
+	padding: 95px 0;
 }
+.apple-btn {
+	background: url(../images/icon_sprite.png) 120px -200px no-repeat;
+}
+.google-btn {
+	background: url(../images/icon_sprite.png) 120px -260px no-repeat;
+}
+.amazon-btn {
+	background: url(../images/icon_sprite.png) 120px -320px no-repeat;
+}
+.amazon-btn, .apple-btn, .google-btn {
+	background-color: black;
+	border-radius: 5px;
+	display: block;
+	width: 100%;
+	height: 50px;
+	margin: 10px;
+}
+@media screen and (min-width: 740px) {
+		.apple-btn, .google-btn, .amazon-btn {
+			display: inline-block;
+			width: 170px;
+			height: 50px;
+		}
+		.apple-btn {
+			background-position: -20px -200px;
+		}
+		.google-btn {
+			background-position: -20px -260px;
+		}
+		.amazon-btn {
+			background-position: -20px -320px;
+		}
+	}
+@media screen and (max-width: 499px) {
+		.apple-btn {
+			background-position: 40px -200px;
+		}
+		.google-btn {
+			background-position: 40px -260px;
+		}
+		.amazon-btn {
+			background-position: 40px -320px;
+		}
+	}
+.facebook-btn, .twitter-btn, .googleplus-btn {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	float: right;
+}
+.facebook-btn {
+	background: url(../images/icon_sprite.png) -80px 0 no-repeat;
+}
+.twitter-btn {
+	background: url(../images/icon_sprite.png) -120px 0 no-repeat;
+}
+.googleplus-btn {
+	background: url(../images/icon_sprite.png) -160px 0 no-repeat;
+}
+.footline {
+	display: inline;
+	margin: 15px;
+}
+footer a {
+	margin: 5px;
+}
+.foot {
+	padding: 20px 0;
+}
+.footernav {
+	padding-top: 20px;
+}
+
 
 
