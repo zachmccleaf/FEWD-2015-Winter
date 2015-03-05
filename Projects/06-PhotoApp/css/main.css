@@ -1,13 +1,56 @@
-font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Roboto', sans-serif;
+/*font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto', sans-serif;*/
 
+
+h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 5px 0 5px 0;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	margin: 0;
+}
+.features p, .slideshow p {
+	size: 16px;
+	color: #777;
+	font-weight: 400;
+}
+.landing h2 {
+	font-size: 70px;
+	color: #fff;
+	font-weight: 100;
+}
+.landing p {
+	font-size: 20px;
+	color: #fff;
+}
+.download-btn {
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #fff;
+	height: 50px;
+	font-size: 20px;
+	color: #e77e04;
+	text-align: center;
+	background: #fff;
+	line-height: 2.3;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+.features h3 {
+	font-weight: 300; 
+	font-size: 26px;
+	color: #e77e04;
+	margin: 20px 0;
+}
 header {
 	height: 140px;
 	width: 100%;
+	background: #fff;
 }
 .logo {
-	line-height: 60px;
-	margin-top: 40px;
 	font-family: 'Roboto', sans-serif; 
 	font-size: 30px;
 	color: #2b3f4c;
@@ -17,7 +60,7 @@ header {
 	font-weight: 900;
 }
 header .fs-cell {
-	margin-top: 40px;
+	margin: 47px 0;
 }
 .logo:before {
 	content: "";
@@ -30,6 +73,7 @@ header .fs-cell {
 }
 .landing {
 	background: url(../images/intro_bg.jpg);
+	background-color: #e77e04;
 	height: 455px;
 	max-width: 100%;
 	position: relative;
@@ -65,9 +109,14 @@ header .fs-cell {
 	margin: 0 auto;
 }
 .slideshow {
-	background: lightgray;
+	background: #eee;
 	margin-top: 90px;
 	padding: 100px 0 90px 0;
+}
+.slideshow h3 {
+	font-size: 36px;
+	color: #2b3f4c;
+	margin: 20px 0;
 }
 .discription {
 	margin: 70px 0 0 0;
@@ -106,6 +155,11 @@ header .fs-cell {
 	width: 100%;
 	height: 50px;
 	margin: 10px;
+}
+@media screen and (max-width: 1020px) {
+	.landing img {
+		display: none;
+	}
 }
 @media screen and (min-width: 740px) {
 		.apple-btn, .google-btn, .amazon-btn {
@@ -148,6 +202,16 @@ header .fs-cell {
 }
 .googleplus-btn {
 	background: url(../images/icon_sprite.png) -160px 0 no-repeat;
+}
+.additional h3 {
+	font-size: 42px; 
+	color: #e77e04;
+}
+.additional p {
+	font-size: 18px;
+	color: #777;
+	font-weight: 400;
+	margin: 20px 0;
 }
 .footline {
 	display: inline;
