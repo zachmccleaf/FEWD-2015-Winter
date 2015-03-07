@@ -128,7 +128,7 @@ header .fs-cell {
 
 @media screen and (min-width: 740px) and (max-width: 979px) {
 	.photomarg {
-		margin-top: 70px;
+		margin-top: 90px;
 	}
 	.slideshow {
 		padding-top: 25px;
@@ -187,12 +187,17 @@ header .fs-cell {
 		.amazon-btn {
 			background-position: 40px -320px;
 		}
+
 	}
-.facebook-btn, .twitter-btn, .googleplus-btn {
+.fs-grid .fs-row .fs-lg-half.social {
+	float: right;
+	width: auto;
+}
+.social a {
 	width: 40px;
 	height: 40px;
-	display: inline-block;
-	float: right;
+	display: block;
+	float: left;
 }
 .facebook-btn {
 	background: url(../images/icon_sprite.png) -80px 0 no-repeat;
@@ -226,6 +231,17 @@ footer a {
 .footernav {
 	padding-top: 20px;
 }
-
+@media screen and (max-width: 740px) {
+	.fs-grid .fs-row .fs-lg-half.social, .social a {
+		position: relative;
+		float: left;
+	}
+	.fs-grid .fs-row .fs-lg-half.social {
+		left: 50%;
+	}
+	.social a {
+		left: -50%;	
+	}
+}
 
 
