@@ -170,11 +170,6 @@ header .fs-cell {
 	height: 50px;
 	margin: 10px;
 }
-@media screen and (max-width: 980px) {
-	.intro_row {
-		right: 30px;
-	}
-}
 @media screen and (min-width: 740px) {
 	.apple-btn, .google-btn, .amazon-btn {
 		display: inline-block;
@@ -199,6 +194,7 @@ header .fs-cell {
 		bottom: 0;
 		right: -5px;
 	}
+}
 @media screen and (min-width: 740px) {
 	.features {
 		text-align: center;
@@ -231,7 +227,8 @@ header .fs-cell {
 		background-position: -160px -120px;
 	}
 }
-@media screen and (max-width: 499px) {
+
+@media screen and (max-width: 499px) and (min-width: 450px) {
 		.apple-btn {
 			background-position: 40px -200px;
 		}
@@ -241,7 +238,19 @@ header .fs-cell {
 		.amazon-btn {
 			background-position: 40px -320px;
 		}
+	}
 
+
+@media screen and (max-width: 450px) {
+		.apple-btn {
+			background-position: 45px -200px;
+		}
+		.google-btn {
+			background-position: 40px -260px;
+		}
+		.amazon-btn {
+			background-position: 40px -320px;
+		}
 	}
 .fs-grid .fs-row .fs-lg-half.social {
 	float: right;
@@ -300,9 +309,6 @@ footer a {
 	.social a {
 		left: -50%;	
 	}
-
-}
-@media screen and (max-width: 740px) {
 	.footline {
 		display: block;
 		text-align: center;
@@ -312,5 +318,6 @@ footer a {
 		display: block;
 	}
 }
+
 
 
