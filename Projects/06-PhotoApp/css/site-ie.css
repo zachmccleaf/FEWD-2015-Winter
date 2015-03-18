@@ -1,0 +1,61 @@
+.landing .calltoaction .download-btn {
+	width: 220px;
+}
+.footline {
+	display: block;
+	text-align: center;
+}
+.footernav {
+	text-align: center;
+	display: block;
+}
+.social {
+	text-align: center;
+}
+.photomarg {
+	margin-top: 90px;
+}
+.slideshow {
+	padding-top: 25px;
+}
+.apple-btn, .google-btn, .amazon-btn {
+	display: inline-block;
+	width: 170px;
+	height: 50px;
+}
+.intro_row:before {
+	background: url(../images/intro_phone.png) no-repeat;
+	content: '';
+	height: 554px;
+	width: 325px;
+	position: absolute;
+	bottom: 0;
+	right: -5px;
+}
+.features {
+	text-align: center;
+}
+
+.feat-heading:after {
+	display: none;
+}
+
+.feat-heading:before {
+	display: block;
+	margin: 0 auto 10px;
+}
+.feat-tag .feat-heading:before {
+	width: 64px;
+	height: 64px;
+	background-position: 0 -120px;
+}
+.feat-cloud .feat-heading:before {
+	width: 72px;
+	height: 64px;
+	background-position: -80px -114px;
+}
+.feat-map .feat-heading:before {
+	height: 64px;
+	width: 50px;
+	background-position: -160px -120px;
+}

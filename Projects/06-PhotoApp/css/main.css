@@ -71,6 +71,9 @@ header .fs-cell {
 	vertical-align: middle;
 	margin-right: 20px;
 }
+.landing .calltoaction .download-btn {
+	width: 100%;
+}
 .landing {
 	background: url(../images/intro_bg.jpg);
 	background-color: #e77e04;
@@ -140,29 +143,21 @@ header .fs-cell {
 .feature div {
 	margin: 20px;
 }
-@media screen and (min-width: 740px) and (max-width: 979px) {
-	.photomarg {
-		margin-top: 90px;
-	}
-	.slideshow {
-		padding-top: 25px;
-	}
-}
 .additional {
 	text-align: center;
-	height: 370px;
 	padding: 95px 0;
 }
-.apple-btn {
-	background: url(../images/icon_sprite.png) 120px -200px no-repeat;
+.additional .apple-btn {
+	background-position: center -200px;
 }
-.google-btn {
-	background: url(../images/icon_sprite.png) 120px -260px no-repeat;
+.additional .google-btn {
+	background-position: center -260px;
 }
-.amazon-btn {
-	background: url(../images/icon_sprite.png) 120px -320px no-repeat;
+.additional .amazon-btn {
+	background-position: center -320px;
 }
 .amazon-btn, .apple-btn, .google-btn {
+	background: url(../images/icon_sprite.png) no-repeat;
 	background-color: black;
 	border-radius: 5px;
 	display: block;
@@ -170,20 +165,84 @@ header .fs-cell {
 	height: 50px;
 	margin: 10px;
 }
+.social {
+	display: inline-block;
+	text-align: right;
+}
+.facebook-btn, .twitter-btn, .googleplus-btn {
+	background: url(../images/icon_sprite.png) no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+.facebook-btn {
+	background-position: -80px 0;
+}
+.twitter-btn {
+	background-position: -120px 0;
+}
+.googleplus-btn {
+	background-position: -160px 0;
+}
+.additional h3 {
+	font-size: 42px; 
+	color: #e77e04;
+}
+.additional p {
+	font-size: 18px;
+	color: #777;
+	font-weight: 400;
+	margin: 20px 0;
+}
+.footline {
+	display: inline;
+	margin: 15px;
+}
+footer a {
+	text-decoration: none;
+	color: #2b3f4c;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+.foot {
+	border-top: 1px solid lightgray;
+	padding: 20px 0;
+}
+.footernav {
+	padding-top: 10px;
+}
+@media screen and (min-width: 980px) {
+	.landing .calltoaction .download-btn {
+		width: 220px;
+	}
+}
+@media screen and (max-width: 740px) {
+
+	.footline {
+		display: block;
+		text-align: center;
+	}
+	.footernav {
+		text-align: center;
+		display: block;
+	}
+	.social {
+		text-align: center;
+	}
+}
+@media screen and (min-width: 740px) and (max-width: 980px) {
+	.photomarg {
+		margin-top: 90px;
+	}
+	.slideshow {
+		padding-top: 25px;
+	}
+}
 @media screen and (min-width: 740px) {
 	.apple-btn, .google-btn, .amazon-btn {
 		display: inline-block;
 		width: 170px;
 		height: 50px;
-	}
-	.apple-btn {
-		background-position: -20px -200px;
-	}
-	.google-btn {
-		background-position: -20px -260px;
-	}
-	.amazon-btn {
-		background-position: -20px -320px;
 	}
 	.intro_row:before {
 		background: url(../images/intro_phone.png) no-repeat;
@@ -208,19 +267,16 @@ header .fs-cell {
 		display: block;
 		margin: 0 auto 10px;
 	}
-
 	.feat-tag .feat-heading:before {
 		width: 64px;
 		height: 64px;
 		background-position: 0 -120px;
 	}
-
 	.feat-cloud .feat-heading:before {
 		width: 72px;
 		height: 64px;
 		background-position: -80px -114px;
 	}
-
 	.feat-map .feat-heading:before {
 		height: 64px;
 		width: 50px;
@@ -228,96 +284,6 @@ header .fs-cell {
 	}
 }
 
-@media screen and (max-width: 499px) and (min-width: 450px) {
-		.apple-btn {
-			background-position: 40px -200px;
-		}
-		.google-btn {
-			background-position: 40px -260px;
-		}
-		.amazon-btn {
-			background-position: 40px -320px;
-		}
-	}
-
-
-@media screen and (max-width: 450px) {
-		.apple-btn {
-			background-position: 45px -200px;
-		}
-		.google-btn {
-			background-position: 40px -260px;
-		}
-		.amazon-btn {
-			background-position: 40px -320px;
-		}
-	}
-.fs-grid .fs-row .fs-lg-half.social {
-	float: right;
-	width: auto;
-}
-.social a {
-	width: 40px;
-	height: 40px;
-	display: block;
-	float: left;
-}
-.facebook-btn {
-	background: url(../images/icon_sprite.png) -80px 0 no-repeat;
-}
-.twitter-btn {
-	background: url(../images/icon_sprite.png) -120px 0 no-repeat;
-}
-.googleplus-btn {
-	background: url(../images/icon_sprite.png) -160px 0 no-repeat;
-}
-.additional h3 {
-	font-size: 42px; 
-	color: #e77e04;
-}
-.additional p {
-	font-size: 18px;
-	color: #777;
-	font-weight: 400;
-	margin: 20px 0;
-}
-.footline {
-	display: inline;
-	margin: 15px;
-}
-footer a {
-	margin: 5px;
-	text-decoration: none;
-	color: #2b3f4c;
-	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-}
-.foot {
-	padding: 20px 0;
-}
-.footernav {
-	padding-top: 20px;
-}
-@media screen and (max-width: 740px) {
-	.fs-grid .fs-row .fs-lg-half.social, .social a {
-		position: relative;
-		float: left;
-	}
-	.fs-grid .fs-row .fs-lg-half.social {
-		left: 50%;
-	}
-	.social a {
-		left: -50%;	
-	}
-	.footline {
-		display: block;
-		text-align: center;
-	}
-	.footernav {
-		text-align: center;
-		display: block;
-	}
-}
 
 
 

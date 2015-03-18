@@ -1,14 +1,28 @@
 <!doctype html>
 <html class="no-js">
 	<head>
-		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<title>PicticiousPro</title>
 		<link rel="stylesheet" type="text/css" href="css/normalize-css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="components/formstone/dist/css/grid.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="components/formstone/dist/css/lightbox.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,900,100' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
-		<script type="components/modernizr/modernizr.js"></script>
+
+
+
+		<script src="components/modernizr/modernizr.js"></script>
+
+		<script src="components/jquery/dist/jquery.js"></script>
+		<script src="components/formstone/dist/js/core.js"></script>
+		<script src="components/formstone/dist/js/transition.js"></script>
+		<script src="components/formstone/dist/js/lightbox.js"></script>
+		<script src="js/site.js"></script>
+		<!--[if IE 8]>
+			<link href="components/formstone/dist/css/grid.ie.css" rel="stylesheet">
+			<link href="css/site-ie.css">
+		<![endif]-->
 	</head>
 	<body class="fs-grid">
 		<header class="fs-row">
@@ -52,30 +66,30 @@
 					<p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 				</div>
 				<div class="photos">
-					<div class="fs-cell fs-lg-2 fs-md-1 fs-sm-half photomarg">
+					<a href="images/photos/01.jpg" class="fs-cell fs-lg-2 fs-md-1 fs-sm-half photomarg js-lightbox" data-lightbox-gallery="photo_gallery">
 						<img src="images/photos/thumb_01.jpg" class="photo">
-					</div>
-					<div class="fs-cell fs-lg-2 fs-md-1 fs-sm-half photomarg">
+					</a>
+					<a href="images/photos/02.jpg" class="fs-cell fs-lg-2 fs-md-1 fs-sm-half photomarg js-lightbox" data-lightbox-gallery="photo_gallery">
 						<img src="images/photos/thumb_02.jpg" class="photo">
-					</div>
-					<div class="fs-cell fs-lg-2 fs-md-1 fs-sm-half">
+					</a>
+					<a href="images/photos/03.jpg" class="fs-cell fs-lg-2 fs-md-1 fs-sm-half photomarg js-lightbox" data-lightbox-gallery="photo_gallery">
 						<img src="images/photos/thumb_03.jpg" class="photo">
-					</div>
-					<div class="fs-cell fs-lg-2 fs-md-1 fs-sm-half">
+					</a>
+					<a href="images/photos/04.jpg" class="fs-cell fs-lg-2 fs-md-1 fs-sm-half photomarg js-lightbox" data-lightbox-gallery="photo_gallery">
 						<img src="images/photos/thumb_04.jpg" class="photo">
-					</div>
-					<div class="fs-cell fs-lg-2 fs-md-1 fs-sm-half">
+					</a>
+					<a href="images/photos/05.jpg" class="fs-cell fs-lg-2 fs-md-1 fs-sm-half photomarg js-lightbox" data-lightbox-gallery="photo_gallery">
 						<img src="images/photos/thumb_05.jpg" class="photo">
-					</div>
-					<div class="fs-cell fs-lg-2 fs-md-1 fs-sm-half">
+					</a>
+					<a href="images/photos/06.jpg" class="fs-cell fs-lg-2 fs-md-1 fs-sm-half photomarg js-lightbox" data-lightbox-gallery="photo_gallery">
 						<img src="images/photos/thumb_06.jpg" class="photo">
-					</div>
-					<div class="fs-cell fs-lg-2 fs-md-1 fs-sm-half">
+					</a>
+					<a href="images/photos/07.jpg" class="fs-cell fs-lg-2 fs-md-1 fs-sm-half photomarg js-lightbox" data-lightbox-gallery="photo_gallery">
 						<img src="images/photos/thumb_07.jpg" class="photo">
-					</div>
-					<div class="fs-cell fs-lg-2 fs-md-1 fs-sm-half">
+					</a>
+					<a href="images/photos/08.jpg" class="fs-cell fs-lg-2 fs-md-1 fs-sm-half photomarg js-lightbox" data-lightbox-gallery="photo_gallery">
 						<img src="images/photos/thumb_08.jpg" class="photo">
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -97,19 +111,17 @@
 				</div>
 			</div>
 		</main>
-		<footer>
-			<div class="fs-row foot clearfix">
-				<div class="fs-cell-right fs-lg-half fs-md-2 fs-sm-all social">
-					<a href="#" class="facebook-btn"></a>
-					<a href="#" class="twitter-btn"></a>
-					<a href="#" class="googleplus-btn"></a>
+		<footer class="fs-row foot">
+				<div class="fs-cell-right fs-lg-half fs-md-2 social">    
+					<a href="#" class="social-link facebook-btn"></a>
+					<a href="#" class="social-link twitter-btn"></a>
+					<a href="#" class="social-link googleplus-btn"></a>
 				</div>
 				<div class="fs-cell fs-lg-half fs-md-4 footernav clearfix">
 					<a href="#">Support</a>
 					<a href="#">Privacy &amp; Terms</a>
 					<p class="footline">&copy; 2014 PicticiousPro</p>
 				</div>
-			</div>
 		</footer>
 	</body>
 </html>
